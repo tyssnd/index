@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>个人网页</title>
+    <link rel="stylesheet" type="text/css" href="css/style888.css" />
+  </head>
+  <style>
+    *{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background: #333333;
+	color: #FFFFFF;
+}
+/* åŽ»æŽ‰æ— åºåˆ—è¡¨çš„é»˜è®¤æ ·å¼ */
+li{
+	list-style: none;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* å†…å®¹åŒºåŸŸ */
+.content{
+	width: 1000px;
+	margin: auto;
+}
+/* é¦–é¡µæ ‡é¢˜ */
+.title{
+	font-size: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+/* é¡¶éƒ¨ */
+.box-top{
+	display: flex;
+	justify-content: space-between;
+}
+.bt-l{
+	width: 650px;
+}
+.bt-l p{
+	line-height: 1.8;
+	margin-bottom: 20px;
+}
+.bt-l ul{
+	display: flex;
+	justify-content: space-between;
+}
+.bt-l ul li{
+	width: 48%;
+	height: 200px;
+}
+.bt-l ul li img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.bt-r{
+	width: 320px;
+}
+.bt-r img{
+	width: 100%;
+	height: 305px;
+	object-fit: cover;
+}
+/* é¦–é¡µåº•éƒ¨ä¸ªäººä¿¡æ¯ */
+.box-bottom{
+	background: #FFFFFF;
+	color: #333333;
+	padding: 20px;
+}
+.box-bottom ul li {
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+	font-size: 18px;
+	color: #666666;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.box-bottom ul li span{
+	font-weight: 600;
+	color: #333333;
+}
+.footer{
+	text-align: center;
+	margin-top: 10px;
+}
+  </style>
+  <body>
+    <!-- 大盒子 -->
+    <div class="box">
+      <div class="content">
+        <h3 class="title">个人网页</h3>
+        <div class="box-top">
+          <div class="bt-l">
+            <!-- 个人介绍 -->
+            <p>
+              嗨，大家好！我是滕延松，一名正在成都锦城学院攻读前端的学生。在这个充满活力和创意的校园里，我不仅在学术上不断追求进步，也在生活中寻找着属于自己的色彩。欢迎来到我的博客，这里是我分享学习心得、生活感悟和创意灵感的空间。
+            </p>
+            <ul>
+              <li>
+                <img src="1.png" alt="" />
+              </li>
+              <li>
+                <img src="2.png" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="bt-r">
+            <img src="3.png" alt="" />
+          </div>
+        </div>
+        <div class="box-bottom">
+          <ul>
+            <li>
+              <span>姓名：</span>
+              <p>滕延松</p>
+            </li>
+            <li>
+              <span>学号：</span>
+              <p>223020348</p>
+            </li>
+            <li>
+              <span>班级：</span>
+              <p>计算机类2205</p>
+            </li>
+            <li>
+              <span>院校：</span>
+              <p>成都锦城学院</p>
+            </li>
+            <li>
+              <span>邮箱：</span>
+              <p>2451617828@qq.com</p>
+            </li>
+          </ul>
+        </div>
+        <!-- 底部 -->
+        <div class="footer">
+          <p>版权所有： 滕延松</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
